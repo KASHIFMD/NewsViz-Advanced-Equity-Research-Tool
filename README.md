@@ -1,13 +1,8 @@
 # NewsViz-Advanced-Equity-Research-Tool
 Using LLM, NLP techniques and vector databases, this model help to generate insights from online articles. Insights are generated based on user prompts.
+It is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
 
-
-
-# RockyBot: News Research Tool 
-
-RockyBot is a user-friendly news research tool designed for effortless information retrieval. Users can input article URLs and ask questions to receive relevant insights from the stock market and financial domain.
-
-![](rockybot.jpg)
+![](AERT.jpg)
 
 ## Features
 
@@ -22,12 +17,12 @@ RockyBot is a user-friendly news research tool designed for effortless informati
 1.Clone this repository to your local machine using:
 
 ```bash
-  git clone https://github.com/codebasics/langchain.git
+  git clone https://github.com/KASHIFMD/NewsViz-Advanced-Equity-Research-Tool.git
 ```
 2.Navigate to the project directory:
 
 ```bash
-  cd 2_news_research_tool_project
+  cd folder_path
 ```
 3. Install the required dependencies using pip:
 
@@ -37,19 +32,20 @@ RockyBot is a user-friendly news research tool designed for effortless informati
 4.Set up your OpenAI API key by creating a .env file in the project root and adding your API
 
 ```bash
-  OPENAI_API_KEY=your_api_key_here
+  OPENAI_API_KEY='key'
 ```
 ## Usage/Examples
 
 1. Run the Streamlit app by executing:
 ```bash
 streamlit run main.py
-
 ```
 
 2.The web app will open in your browser.
 
-- On the sidebar, you can input URLs directly.
+- On the sidebar, put n = number of links.
+
+- you can input URLs directly.
 
 - Initiate the data loading and processing by clicking "Process URLs."
 
@@ -59,10 +55,9 @@ streamlit run main.py
 
 - The FAISS index will be saved in a local file path in pickle format for future use.
 - One can now ask a question and get the answer based on those news articles
-- In video tutorial, we used following news articles
-  - https://www.moneycontrol.com/news/business/tata-motors-mahindra-gain-certificates-for-production-linked-payouts-11281691.html
-  - https://www.moneycontrol.com/news/business/tata-motors-launches-punch-icng-price-starts-at-rs-7-1-lakh-11098751.html
-  - https://www.moneycontrol.com/news/business/stocks/buy-tata-motors-target-of-rs-743-kr-choksey-11080811.html
+- URLs for sample use case
+  - https://www.moneycontrol.com/news/business/markets/market-corrects-post-rbi-ups-inflation-forecast-icrr-bet-on-these-top-10-rate-sensitive-stocks-ideas-11142611.html
+  - https://www.moneycontrol.com/news/business/banks/hdfc-bank-re-appoints-sanmoy-chakrabarti-as-chief-risk-officer-11259771.html
 
 ## Project Structure
 
@@ -70,3 +65,8 @@ streamlit run main.py
 - requirements.txt: A list of required Python packages for the project.
 - faiss_store_openai.pkl: A pickle file to store the FAISS index.
 - .env: Configuration file for storing your OpenAI API key.
+
+## Proposed work:
+- Use of NLP technque to summarize the give selected chunks based on the query from users.
+- 
+![AERT.png]
