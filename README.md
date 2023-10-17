@@ -69,4 +69,4 @@ streamlit run main.py
 ## Proposed work:
 - Use of NLP technque to summarize the give selected chunks based on the query from users.
 - 
-![AERT.png]
+![](AERT.png)
