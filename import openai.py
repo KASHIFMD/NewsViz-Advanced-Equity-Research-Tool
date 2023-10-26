@@ -1,5 +1,5 @@
 import openai
-openai.api_key = 'sk-rc3lfE8eLWI4IxMwcilcT3BlbkFJMfqcjJ0qYVt4Ds0odv'
+openai.api_key = ''
 
 def is_api_key_valid():
     try:
