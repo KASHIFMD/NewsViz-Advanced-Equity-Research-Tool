@@ -58,8 +58,10 @@ streamlit run main.py
 - URLs for sample use case
   ```bash
   - https://www.moneycontrol.com/news/business/markets/market-corrects-post-rbi-ups-inflation-forecast-icrr-bet-on-these-top-10-rate-sensitive-stocks-ideas-11142611.html
-``` ```bash - https://www.moneycontrol.com/news/business/banks/hdfc-bank-re-appoints-sanmoy-chakrabarti-as-chief-risk-officer-11259771.html
-``` ```bash
+``` 
+```bash - https://www.moneycontrol.com/news/business/banks/hdfc-bank-re-appoints-sanmoy-chakrabarti-as-chief-risk-officer-11259771.html
+```
+```bash
 Who is Sanmoy Chakrabarti?
 ```
 ## Project Structure
