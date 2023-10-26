@@ -66,6 +66,9 @@ streamlit run main.py
   ```bash
   Who is Sanmoy Chakrabarti?
   ```
+
+![](results.png)
+  
 ## Project Structure
 
 - main.py: The main Streamlit application script.
