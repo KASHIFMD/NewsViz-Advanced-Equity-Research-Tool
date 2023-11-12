@@ -78,5 +78,6 @@ streamlit run main.py
 
 ## Proposed work:
 - Use of NLP technque to summarize the give selected chunks based on the query from users.
-- 
+- RAG using JSON data with the help of LLMs (Replacing URL website data with json)
+- RAG using PDFs data with the help of LLMs (Replacing URL website data with pdf)
 ![](AERT.png)
